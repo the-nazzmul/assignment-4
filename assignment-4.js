@@ -61,7 +61,7 @@ function findingBadData(array) {
         return "The input must be an array. Please enter an array..."
     }
 
-    // There should be an empty array "badData" which will contain the bad data and return as a new string. A for loop is to be run on each element of the input array. If any element is less than 0, then the element will be pushed to "badData". After the loop is complete, the length of bad.Data is to be returned.
+    // There should be an empty array "badData" which will contain the bad data and return as a new string. A for loop is to be run on each element of the input array. If any element is less than 0, then the element will be pushed to "badData". After the loop is complete, the length of "badData" is to be returned.
 
     let badData = [];
 
@@ -87,11 +87,11 @@ function gemsToDiamond(friend1Gem, friend2Gem, friend3Gem) {
 
     // All the input (friends' gem) values is to be multiplied by their powers respectively. Then the total is to be calculated my adding up the results of multiplications. If the total is less than 2000, then it is to be returned as it is. But if the total is more than 2000, them 2000 has to be subtracted from the total and the rest is to be returned. 
 
-    const firstFriendPower = 21;
-    const secondFriendPower = 32;
-    const thirdFriendPower = 43;
+    const friend1Power = 21;
+    const friend2Power = 32;
+    const friend3Power = 43;
 
-    const totalDiamond = (friend1Gem * firstFriendPower) + (friend2Gem * secondFriendPower) + (friend3Gem * thirdFriendPower);
+    const totalDiamond = (friend1Gem * friend1Power) + (friend2Gem * friend2Power) + (friend3Gem * friend3Power);
 
     if (totalDiamond > 2000) {
         return totalDiamond - 2000;
