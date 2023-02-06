@@ -24,7 +24,7 @@ function evenOdd(string) {
     }
 }
 
-// console.log(evenOdd('nowshin sharmili'))
+console.log(evenOdd(32))
 
 function isLGSeven(number) {
     const difference = number - 7;
@@ -61,8 +61,8 @@ function findingBadData(array) {
     return badData.length;
 }
 
-const myArray = [2, 4, -50, -3, -5, -6]
-// console.log(findingBadData(myArray))
+const myArray = [ -4, -9, -5, -33, -55 ]
+console.log(findingBadData(myArray))
 
 // function - 5
 

@@ -39,7 +39,8 @@ function isLGSeven(number) {
     if (typeof number !== 'number') {
         return 'Please enter a number..'
     }
-
+    // If the difference between the input and 7 is less than 7, then it will be returned as it is. But if the difference is larger than 7 then input value has to be multiplied by 2 and then the result is to be returned.
+    
     const difference = number - 7;
 
     if (difference < 7) {
